@@ -9,10 +9,11 @@ import json
 def create_connection():
     try:
         conn = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='2407',
-            database='finalproject'
+            host='a98t1.h.filess.io',
+            user='LoanManagement_springherd',
+            port = "3307"
+            password='5c9887f8b0a52a36479aee660976028c965f4ddd',
+            database='LoanManagement_springherd'
         )
         if conn.is_connected():
             return conn
