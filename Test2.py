@@ -643,7 +643,7 @@ else:
             st.subheader("Loan Information")
             loan_id = st.text_input("Loan ID")
             original_loan = st.number_input("Original Loan Amount", min_value=0, value=0)
-            segment_of_loan = st.text_input("Segment of Loan", placeholder = 'Commercial   ,   Retail   ,   Microfinance')
+            segment_of_loan = st.text_input("Segment of Loan", placeholder = 'Commercial, Retail or Microfinance')
             quarter = st.number_input("Quarter", min_value=1, max_value=4, value=1)
             year = st.number_input("Year", min_value=1900, value=2023)
 
