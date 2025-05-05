@@ -1,0 +1,1 @@
+{"lender1": {"password": "lenderpass", "role": "Lender"}, "borrower1": {"password": "borrowerpass", "role": "Borrower"}, "lender2": {"password": "Password", "role": "Lender"}, "lender3": {"password": "lender3", "role": "Lender"}}
