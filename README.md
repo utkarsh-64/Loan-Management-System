@@ -83,7 +83,7 @@ https://loan-management-system.streamlit.app/
 ---
 
 ## Contributor:
- - Utkarsh Lakhani - [GitHub](github.com/utkarsh-64)
+ - Utkarsh Lakhani - [GitHub](https://github.com/utkarsh-64)
 ---
 
 ## Notes
