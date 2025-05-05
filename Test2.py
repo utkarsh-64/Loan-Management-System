@@ -392,10 +392,6 @@ def update_entry():
             # Call the update details function to apply changes
             update_details(borrower_id, data_to_update)
 
-            
-import streamlit as st
-import json  # For storing user data
-
 # Define the path for user data storage
 USER_DATA_FILE = "user.user_data.json"
 
