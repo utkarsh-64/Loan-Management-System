@@ -9,11 +9,11 @@ import json
 def create_connection():
     try:
         conn = mysql.connector.connect(
-            host='a98t1.h.filess.io',
-            user='LoanManagement_springherd',
-            port = "3307",
-            password='5c9887f8b0a52a36479aee660976028c965f4ddd',
-            database='LoanManagement_springherd'
+            host='xpw3bw.h.filess.io',
+            user='LoanDB_intograph',
+            port = "61032",
+            password='4e1a051b6cfa42eb186adf06e0a6162966828e36',
+            database='LoanDB_intograph'
         )
         if conn.is_connected():
             return conn
@@ -929,3 +929,4 @@ else:
 
         We hope this help section guides you through using the Loan Management System. Feel free to explore the other sections and manage your loan data efficiently!
         """)
+
