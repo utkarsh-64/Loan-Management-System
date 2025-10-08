@@ -673,7 +673,7 @@ else:
                         # Inserting loan details
                         cursor.execute(
                             """
-                            INSERT INTO loan (loanid, borrowid, lenderid, loantypeid, `Original Loan size`, `Segment of Loan`, quarters, years) 
+                            INSERT INTO loan (loanid, borrowid, lenderid, loantypeid, originalloan, segmantofloan, quarters, years) 
                             VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
                             """,
                             (loan_id, borrower_id, lender_id, loan_type_id, original_loan, segment_of_loan, quarter, year)
@@ -929,4 +929,5 @@ else:
 
         We hope this help section guides you through using the Loan Management System. Feel free to explore the other sections and manage your loan data efficiently!
         """)
+
 
